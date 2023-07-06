@@ -10,10 +10,6 @@
 
 // camelCase
 let countEl = document.getElementById("count-el"); // pass in arguments
-
-// test below via console.log to see if countEl is working properly //
-// console.log(countEl);
-
 let count = 0;
 
 function increment() {
@@ -21,3 +17,8 @@ function increment() {
   countEl.innerText = count;
 }
 
+// 1. Create a function, save(), which logs out the count when it's called
+
+function save() {
+  console.log(count);
+}
