@@ -21,15 +21,21 @@ function increment() {
 
 // 1. Create a function, save(), which logs out the count when it's called
 function save() {
-// 2. Create a variable that contains both the count and the dash separator, i.e. "12 - 
+  // 2. Create a variable that contains both the count and the dash separator, i.e. "12 -
   let countStr = count + " - ";
-  // 3. Render the variable in the saveEl using innerText
+  // 3. Render the variable in the saveEl using innerText initially, but look at styling issues
+  // 4. Google: innerText alternative mdn
   saveEl.textContent += countStr;
-  // NB: Make sure to not delete the existing content of the paragraph
-  console.log(count);
+  // 5. Final Step: Set the count back to 0 once an increment has been saved
+  countEl.textContent = 0;
+  count = 0;
 }
 
-// Google: innerText alternative mdn
+
+
+
+
+
 
 
 
