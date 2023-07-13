@@ -22,7 +22,7 @@ function increment() {
 // 1. Create a function, save(), which logs out the count when it's called
 function save() {
   // 2. Create a variable that contains both the count and the dash separator, i.e. "12 -
-  let countStr = count + " - ";
+  let countStr = count + " , ";
   // 3. Render the variable in the saveEl using innerText initially, but look at styling issues
   // 4. Google: innerText alternative mdn
   saveEl.textContent += countStr;

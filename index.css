@@ -50,7 +50,7 @@ button {
 }
 
 #increment-btn:hover {
-  background: rgba(210, 220, 83, 0.828);
+  background: rgba(217, 227, 85, 0.828);
 }
 
 #save-btn {
@@ -62,6 +62,7 @@ button {
 }
 
 .container {
+  
   background: #eeeeee;
   opacity: 85%;
   border: 3px solid black;
