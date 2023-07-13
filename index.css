@@ -1,5 +1,5 @@
 body {
-  background-image: url("subway_station.png");
+  background-image: url("grand_central.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Palatino;
@@ -46,7 +46,7 @@ button {
 }
 
 #increment-btn {
-  background: rgb(245, 255, 98);
+  background: rgba(248, 250, 113, 255);
 }
 
 #increment-btn:hover {
@@ -54,16 +54,16 @@ button {
 }
 
 #save-btn {
-  background: rgb(51, 241, 206);
+  background: rgba(153, 218, 196, 255);
 }
 
 #save-btn:hover {
-  background: rgb(37, 197, 168);
+  background: rgba(113, 165, 142, 255);
 }
 
 .container {
-  background: white;
-  opacity: 90%;
+  background: #eeeeee;
+  opacity: 85%;
   border: 3px solid black;
   border-radius: .5vw;
   max-width: 80vw;
