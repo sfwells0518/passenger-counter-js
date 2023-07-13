@@ -1,37 +1,69 @@
 body {
-  background-image: url("station.jpg");
+  background-image: url("subway_station.png");
   background-size: cover;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-repeat: no-repeat;
+  font-family: Palatino;
   font-weight: bold;
   text-align: center;
+  min-height: 100vh;
 }
 
 h1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 5vw;
+  /* Responsive font size */
+  margin-top: 2vw;
+  /* Responsive margin */
+  margin-bottom: 2vw;
+  /* Responsive margin */
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 4vw;
+  /* Responsive font size */
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 2vw;
+  /* Responsive margin */
 }
 
 button {
   border: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
+  padding-top: 2vw;
+  /* Responsive padding */
+  padding-bottom: 2vw;
+  /* Responsive padding */
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  width: 200px;
-  margin-bottom: 5px;
-  border-radius: 5px;
+  width: 40vw;
+  /* Responsive width */
+  margin-bottom: 1vw;
+  /* Responsive margin */
+  border-radius: 1vw;
+  /* Responsive border radius */
 }
 
 #increment-btn {
-  background: darkred;
+  background: rgb(245, 255, 98);
+}
+
+#increment-btn:hover {
+  background: rgba(210, 220, 83, 0.828);
 }
 
 #save-btn {
-  background: darkgreen;
+  background: rgb(51, 241, 206);
+}
+
+#save-btn:hover {
+  background: rgb(37, 197, 168);
+}
+
+#passenger-counter {
+  border-style: solid;
+  border-color: black;
+  max-width: 80vw;
+  /* Responsive maximum width */
+  margin: 0 auto;
+  /* Center the container */
+  padding: 2vw;
+  /* Responsive padding */
 }
