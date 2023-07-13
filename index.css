@@ -41,7 +41,7 @@ button {
   /* Responsive width */
   margin-bottom: 1vw;
   /* Responsive margin */
-  border-radius: 1vw;
+  border-radius: .5vw;
   /* Responsive border radius */
 }
 
@@ -63,9 +63,9 @@ button {
 
 .container {
   background: white;
-  opacity: 85%;
+  opacity: 90%;
   border: 3px solid black;
-  border-radius: 1vw;
+  border-radius: .5vw;
   max-width: 80vw;
   /* Responsive maximum width */
   margin: 0 auto;
